@@ -19,4 +19,4 @@
 18. [HACKERRANK JEETU AND SEGMENTS](https://www.hackerrank.com/contests/tebefinalround/challenges/jeetu-and-segments)
 19. [HACKERRANK VASYA AND SWEETS](https://www.hackerrank.com/contests/crack-qualifier/challenges/equation-3)
 20. [HACKERRANK THE TREE PROBLEM](https://www.hackerrank.com/contests/thefirst/challenges/the-tree-problem)
-21. [HACKERRANK RUNNING GCD(https://www.hackerrank.com/contests/ab-yeh-kar-ke-dikhao-returns/challenges/runninggcd)
+21. [HACKERRANK RUNNING GCD](https://www.hackerrank.com/contests/ab-yeh-kar-ke-dikhao-returns/challenges/runninggcd)
