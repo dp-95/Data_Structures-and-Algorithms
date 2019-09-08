@@ -20,3 +20,4 @@
 19. [HACKERRANK VASYA AND SWEETS](https://www.hackerrank.com/contests/crack-qualifier/challenges/equation-3)
 20. [HACKERRANK THE TREE PROBLEM](https://www.hackerrank.com/contests/thefirst/challenges/the-tree-problem)
 21. [HACKERRANK RUNNING GCD](https://www.hackerrank.com/contests/ab-yeh-kar-ke-dikhao-returns/challenges/runninggcd)
+22. [CSES INCREASING SUBSEQUENCES](https://cses.fi/problemset/task/1145/)
