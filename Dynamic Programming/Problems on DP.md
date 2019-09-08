@@ -10,3 +10,4 @@
 9. [CODEFORCES HACKING CYPHER](https://codeforces.com/contest/490/problem/C)
 10. [CODEFORCES K-TREE](https://codeforces.com/contest/431/problem/C)
 11. [CSES REMOVAL GAME](https://cses.fi/problemset/task/1097)
+12. [CSES INCREASING SEQUENCES](https://cses.fi/problemset/task/1145)
