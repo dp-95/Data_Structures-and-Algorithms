@@ -66,49 +66,6 @@ void getn( ){
 
 }
 
-ll ar[ 15 ], sl(INF), lf(0) ;
-
-void sol( ll i, ll mask ){
-  if( i == n ){
-    if( !mask )
-      return ;
-    vector< ll > nums ;
-    for( ll i = 0 ; i < 11 ; i++ ){
-      if( mask&(1LL<<i) ){
-        nums.pb( ar[i]);
-      }
-    }
-    ll lcm = nums[0];
-    for( ll i = 1 ; i < sz(nums);i++ )
-      lcm = (lcm*nums[i])/__gcd(lcm,nums[i]);
-    sl = min(sl,lcm);
-    lf = max(lf,lcm);
-  }
-  else{
-    sol( i +1, mask ) ;
-    sol( i + 1, mask |(1LL<<i));
-  }
-}
-
-void getk( ){
-  if( t_no < 5 ){
-    klo = 1, khi = 10000 ;
-  }
-  else if( t_no < 12 ){
-    klo = 1, khi = 1000000 ;
-  }
-  else if( t_no < 15 ){
-    klo = 1, khi = 100000000 ;
-  }
-  else{
-    klo = 1, khi = INF ;
-  }
-  klo = 1, khi = min( max(MAX/lf,10000LL), khi ) ;
-  uniform_int_distribution< ll >kgen( klo, khi ) ;
-  k = kgen( rng ) ;
-}
-
-
 int main( ){
   timesaver ;
   getn();
@@ -120,9 +77,7 @@ int main( ){
     for( int i = 0 ; i < n ; i++ ){
       ar[ i ] = vgen( rng ) ;
     }
-    sol( 0, 0 ) ;
-    getk( ) ;
-    cout << n << " " << k << nl ;
+    cout << n <<  nl ;
     for( int i = 0 ; i < n ; i++ )
       cout << ar[ i ] << " " ;
     cout << nl ;
