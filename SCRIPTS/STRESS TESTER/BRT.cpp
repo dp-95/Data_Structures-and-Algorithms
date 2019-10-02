@@ -1,7 +1,3 @@
-/*
-* @Author: _dp95
-* @Date:   2019-10-02 01:01:15
-*/
 #include "bits/stdc++.h"
 using namespace std ;
 
@@ -25,41 +21,11 @@ typedef long double ldb ;
 const int dx[8] = {-1, -1, -1, 0, 1, 1, 1, 0};
 const int dy[8] = {-1, 0, 1, 1, 1, 0, -1, -1};
 
-const int MAX = 1000*1000 + 10 ;
+const int MAX = 2*1000*1000 + 10 ;
 const ll INF = 1e18 ;
 const int MOD = 1e9 + 7 ;
 
-vector< int > v ;
-int n ;
-
-void pre( ){
-  for( int i = 0 ; i < n ; i++ ){
-    for( int j = v[i] ; j < MAX ; j += v[i] ){
-      v.pb(j);
-    }
-  }
-  sort(all(v));
-  unique(all(v));
-}
-
-void sol( ){
-  ll req ;
-  cin >> n >> req ;
-  for(int i = 0 ; i < n ; i++ ){
-    int x, y ;
-    cin >> x ;
-    v.pb(x);
-  }
-  pre( ) ;
-  cout << v[ req -1 ] << nl ;
-}
-
 int main( ){
   timesaver ;
-  ll t ;
-  cin >> t ;
-  while( t-- ){
-    sol( ) ;
-    v.clear( ) ;
-  }
+  
 }
